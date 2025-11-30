@@ -1,0 +1,68 @@
+export const theme = {
+  colors: {
+    light: {
+      primary: '#00BCD4',
+      primaryDark: '#0097A7',
+      accent: '#FF5722',
+      background: '#F5F5F5',
+      surface: '#FFFFFF',
+      card: '#FFFFFF',
+      text: '#212121',
+      textSecondary: '#757575',
+      border: '#E0E0E0',
+      success: '#4CAF50',
+      error: '#F44336',
+      warning: '#FF9800',
+      info: '#2196F3',
+      terminal: '#1E1E1E',
+      terminalText: '#00FF00',
+    },
+    dark: {
+      primary: '#00BCD4',
+      primaryDark: '#0097A7',
+      accent: '#FF5722',
+      background: '#121212',
+      surface: '#1E1E1E',
+      card: '#2C2C2C',
+      text: '#FFFFFF',
+      textSecondary: '#B0B0B0',
+      border: '#3C3C3C',
+      success: '#4CAF50',
+      error: '#F44336',
+      warning: '#FF9800',
+      info: '#2196F3',
+      terminal: '#0C0C0C',
+      terminalText: '#00FF00',
+    },
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+  },
+  borderRadius: {
+    sm: 4,
+    md: 8,
+    lg: 12,
+    xl: 16,
+  },
+  fonts: {
+    regular: 'System',
+    medium: 'System',
+    bold: 'System',
+    mono: 'Courier',
+  },
+  fontSizes: {
+    xs: 12,
+    sm: 14,
+    md: 16,
+    lg: 18,
+    xl: 20,
+    xxl: 24,
+  },
+};
+
+export type Theme = typeof theme;
+export type ColorScheme = 'light' | 'dark';
